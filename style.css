@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.body {
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+    margin: 51px 38px 30px 10px;
+    justify-content: center;
+    align-content: center;
+    gap: 55px;
+}
+
+.img {
+    margin-left: 0px;
+}
+
+.img img {
+    height: 450px;
+    width: auto;
+
+}
+
+.login {
+    width: 270px;
+    margin: 42px 30px 0 30px;
+    text-align: center;
+}
+
+.instalogo {
+    background-image: url(assets/E7m8ZCMOFDS.png);
+    background-position: 0px -52px;
+    background-size: auto;
+    width: 175px;
+    height: 51px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.inputs {
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+
+.login input {
+    display: block;
+    font-size: 12px;
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 8px;
+    background-color: rgb(0, 149, 246);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 8px;
+    opacity: 0.7;
+}
+
+.or-divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.or-divider .line {
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.or-divider .or-text {
+    margin: 0 18px;
+    color: #8e8e8e;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.facebook-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 10px 0;
+    color: #3570ea;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.facebook-login .fb-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.inputs a {
+    padding-bottom: 10px;
+}
+
+.forgot {
+    display: block;
+    margin: 10px 0;
+    color: #00376b;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.login span {
+    padding: 13px 0;
+    font-size: 13px;
+}
+.login span a{
+text-decoration: none;
+cursor: pointer;
+font-weight: bold;
+color: #0095f6;
+}
+
+
+footer {
+    margin: 0 0 30pxpx;
+    display: flex;
+    justify-content: center;
+
+}
+
+footer div {
+    color: #737373;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    width: 60vw;
+
+}
+
+footer div a {
+    color: #737373;
+    text-decoration: none;
+
+}
+
+select {
+    color: #737373;
+    border: none
+}
